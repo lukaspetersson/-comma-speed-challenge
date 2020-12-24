@@ -58,10 +58,11 @@ def display_confusion_matrix(true_labels, predicted_labels, classes=[1,0]):
     cm = metrics.confusion_matrix(y_true=true_labels, y_pred=predicted_labels, 
                                   labels=classes)
     cm_frame = pd.DataFrame(data=cm, 
-                            columns=pd.MultiIndex(levels=[['Predicted:'], classes]), 
+                            columns=pd.MultiIndex(levels=[['Predicted:'], classes], 
+                                                  labels=level_labels), 
                             index=pd.MultiIndex(levels=[['Actual:'], classes], 
                                                 labels=level_labels)) 
-    print(cm_frame) 
+    print(cm) 
     
 def display_classification_report(true_labels, predicted_labels, classes=[1,0]):
 
@@ -76,6 +77,7 @@ def display_model_performance_metrics(true_labels, predicted_labels, classes=[1,
     print('Model Performance metrics:')
     print('-'*30)
     get_metrics(true_labels=true_labels, predicted_labels=predicted_labels)
+    print('\nHHHHHHHHHHHHHHHHHHHHHHH')
     print('\nModel Classification report:')
     print('-'*30)
     display_classification_report(true_labels=true_labels, predicted_labels=predicted_labels, 
