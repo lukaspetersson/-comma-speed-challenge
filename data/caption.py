@@ -1,4 +1,6 @@
-import cv2 
+import cv2
+import time
+
 cap = cv2.VideoCapture('C:/Users/Lukas/Desktop/commaai-speed-challenge/data/test.mp4')
 
 f = open("C:/Users/Lukas/Desktop/commaai-speed-challenge/data/test.txt", "r")
@@ -20,6 +22,7 @@ while(cap.isOpened()):
                 cv2.LINE_4) 
   
     cv2.imshow('video', frame) 
+    time.sleep(1/20)
   
     if cv2.waitKey(1) & 0xFF == ord('q'): 
         break
