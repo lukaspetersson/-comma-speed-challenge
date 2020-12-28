@@ -22,7 +22,7 @@ while(cap.isOpened()):
                 cv2.LINE_4) 
   
     cv2.imshow('video', frame) 
-    time.sleep(1/20)
+    time.sleep(1/80)
   
     if cv2.waitKey(1) & 0xFF == ord('q'): 
         break
