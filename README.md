@@ -9,7 +9,7 @@
 * `2k19.ipynb` - testing on the [comma2k19](https://github.com/commaai/comma2k19) dataset
 * `KITTI.ipynb` – testing on the [Kitti](http://www.cvlibs.net/datasets/kitti/index.php) dataset
 * `combined.ipynb` - testing on both datasets combined
-* `final_training.ipynb` - final model is trained on both datasets and `train.mp4` 
+* `final_training.ipynb` - final model is trained on both datasets and `train.mp4`
 * `plot_result.ipynb` - plot and manage the final result
 * `caption.py` - play the testing video with the predicted results
 * `model.h5` - final model
