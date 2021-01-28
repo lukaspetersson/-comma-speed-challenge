@@ -42,14 +42,14 @@ During the final training I once again thrained on the combined dataset, this ti
 
 
 ### References
-https://arxiv.org/pdf/1608.01230v1.pdf
-https://arxiv.org/pdf/1504.06852.pdf
-https://arxiv.org/pdf/1604.07316v1.pdf
-https://medium.com/weightsandbiases/predicting-vehicle-speed-from-dashcam-video-f6158054f6fd
-https://github.com/ryanchesler/comma-speed-challenge
-https://github.com/djnugent/SpeedNet
-https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a
-https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html
-https://github.com/diggs1711/comma-ai-speed-challenge
-https://github.com/ckirksey3/steering-prediction-with-keras/blob/master/model.py
-https://github.com/abhileshborode/Behavorial-Clonng-Self-driving-cars/blob/master/model.py
+* https://arxiv.org/pdf/1608.01230v1.pdf
+* https://arxiv.org/pdf/1504.06852.pdf
+* https://arxiv.org/pdf/1604.07316v1.pdf
+* https://medium.com/weightsandbiases/predicting-vehicle-speed-from-dashcam-video-f6158054f6fd
+* https://github.com/ryanchesler/comma-speed-challenge
+* https://github.com/djnugent/SpeedNet
+* https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a
+* https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html
+* https://github.com/diggs1711/comma-ai-speed-challenge
+* https://github.com/ckirksey3/steering-prediction-with-keras/blob/master/model.py
+* https://github.com/abhileshborode/Behavorial-Clonng-Self-driving-cars/blob/master/model.py
