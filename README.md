@@ -42,8 +42,9 @@ In addition to the 2k19 dataset I used the [Kitti dataset](http://www.cvlibs.net
 The dataset could fit in memory. I therefore trained on smaller batches containing 25000 frames from comma2k19 and 2811 frames from Kitti. To prevent converging to a suboptimal local minimum I only trained for 2 epochs. I evaluated the model on `train.mp4`. The result on the best batch was a MSE of 4.1633.
 
 ### Final training
-During the final training I once again trained on the combined dataset, this time without a validation split. Since I did not load `train.mp4` into memory I could fit more of the other data, I used this to increase the image resolution. Surprisingly, this made the MSE on `train.mp4` worse (12.639). I did not have time to look into this. Finally, the model was trained on `train.mp4` for 10 epochs.
+During the final training I once again trained on the combined dataset, this time without a validation split. Since I did not load `train.mp4` into memory I could fit more of the other data, I used this to increase the image resolution. Surprisingly, this made the MSE on `train.mp4` worse (12.639). I did not have time to look into this*. Finally, the model was trained on `train.mp4` for 10 epochs. After managing data in `plot_result.ipynb` my final answer achieved a MSE of 3.
 
+*Increasing the image resolution was the reason for worse results.
 
 ### References
 * https://arxiv.org/pdf/1608.01230v1.pdf
